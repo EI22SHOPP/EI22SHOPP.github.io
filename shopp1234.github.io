@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Produk Saya</title>
+
+	<style type="text/css">
+		.Produk{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.item{
+			width: 200px;
+			height: 200px;
+			background: #cfc;
+			margin-right: 15px;
+			margin-bottom: 15px;
+			border: solid 1px orange;
+			border-radius: 5px;
+			text-align: center;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Produk Saya</h1>
+
+	<p>
+		<a href="#" onclick="history.go(-1)">Kembali</a>
+
+		<a href="tambah_produk.html">Tambah Produk</a>
+	</p>
+
+	<div class="produk">
+		<div class="item">
+			Gamis Abaya Polos
+			<p align="center">
+				<img src="abaya.JPEG" width="100px">
+			</p>
+		</div>
+		<div class="item">
+			Gamis Ceruty babydoll
+			<p align="center">
+				<img src="" width="100px">
+			</p>
+		</div>
+		<div class="item">
+			Gamis Nibras Terbaru NB A75
+		</div>
+		<div class="item">
+			Gamis ANIDIRA SYAR'I ORY BY AKU KARISSA
+		</div>
+		<div class="item">
+			Pasmina Plisket Babydoll
+		</div>
+		<div class="item">
+			Pasmina Plisket Diamond
+		</div>
+		<div class="item">
+			Mukena Dewasa Amplop
+		</div>
+		<div class="item">
+			Mukena Andin New
+		</div>
+		<div class="item">
+			Hijab Bergo Jersey Tali instan/Jersey Premium
+		</div><div class="item">
+			Hijab Bergo Maryam Diamond Tali NON PET
+		</div><div class="item">
+			Hijab Bergo Jersey Tasya Jumbo
+		</div>
+	</div>
+</body>
+</html>
