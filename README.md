@@ -2,74 +2,61 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Produk Saya</title>
+	<title>EI22_SHOPP</title>
 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<style type="text/css">
-		.Produk{
-			display: flex;
-			flex-wrap: wrap;
-		}
 
-		.item{
-			width: 200px;
-			height: 200px;
-			background: #cfc;
-			margin-right: 15px;
-			margin-bottom: 15px;
-			border: solid 1px orange;
-			border-radius: 5px;
-			text-align: center;
-
-		}
-	</style>
+	.tabel_judul{
+		background-color: yellow;
+	}
+	img{
+		border: solid 5px white;
+		transition: 2s;
+		box-shadow: 2px 2px 3px grey;
+		
+	}
+	img.{
+		transform: scale(1.0);
+	}
+</style>
 </head>
 <body>
-	<h1>Produk Saya</h1>
+	<!-- header -->
+	<div class ="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-facebook-f"></i></li>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-yoast"></i></li>
+			</ul>
+			
+		</div>	
+	<h1>EI22_SHOPP</h1>
 
-	<p>
-		<a href="#" onclick="history.go(-1)">Kembali</a>
 
-		<a href="tambah_produk.html">Tambah Produk</a>
-	</p>
 
-	<div class="produk">
-		<div class="item">
-			Gamis Abaya Polos
-			<p align="center">
-				<img src="abaya.JPEG" width="100px">
-			</p>
-		</div>
-		<div class="item">
-			Gamis Ceruty babydoll
-			<p align="center">
-				<img src="" width="100px">
-			</p>
-		</div>
-		<div class="item">
-			Gamis Nibras Terbaru NB A75
-		</div>
-		<div class="item">
-			Gamis ANIDIRA SYAR'I ORY BY AKU KARISSA
-		</div>
-		<div class="item">
-			Pasmina Plisket Babydoll
-		</div>
-		<div class="item">
-			Pasmina Plisket Diamond
-		</div>
-		<div class="item">
-			Mukena Dewasa Amplop
-		</div>
-		<div class="item">
-			Mukena Andin New
-		</div>
-		<div class="item">
-			Hijab Bergo Jersey Tali instan/Jersey Premium
-		</div><div class="item">
-			Hijab Bergo Maryam Diamond Tali NON PET
-		</div><div class="item">
-			Hijab Bergo Jersey Tasya Jumbo
-		</div>
+	<div id="menu">
+		<li class="active"><a href="#">Home</a></li>
+		<li class="active"><a href="modul/produk/produk_saya.html">Produk Saya</a></li>
+		<li class="active"><a href="modul/about/tentang_toko.html">Tentang Toko</a></li>
+		<li class="active"><a href="modul/about/informasi.html">Informasi</a></li>
+		<li class="active"><a href="modul/about/tentang_saya.html">Tentang Saya</a></li>
+		<li class="active"><a href="modul/about/daftar.html">Daftar</a></li>
 	</div>
+
+	
+
+	<h2>Selamat Datang di EI22_SHOPP</h2>
+
+	<p>Promo Fashion Lebaran</p>
+
+	<ul>
+		<li>Gamis</li>
+		<li>Hijab</li>
+		<li>Mukenah</li>
+	
+	</ul>
 </body>
 </html>
