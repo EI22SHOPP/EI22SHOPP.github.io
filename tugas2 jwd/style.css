@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: beige;
+	font-family: sans-serif;
+}
+
+header,  nav, section, bio-container{
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	border-bottom: 3px solid black;
+}
+
+header img{
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+}
+
+header h1{
+	font-weight: normal;
+	font-size: 40px;
+	float: left;
+	margin-top: 25px;
+}
+
+nav, nav {
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	border-bottom: 3px solid black;
+}
+
+.fixed-element{
+	clear: both;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#left-top-menu{
+	float: left;
+}
+
+#right-top-menu{
+	float: right;
+}
+
+nav ul li a{
+
+	text-decoration: none;
+}
+
+.last-menu{
+	margin-right: 40px;
+}
+
+section h2{
+	text-align: center;
+	font-size: 32px;
+	padding: 20px 0;
+}
+
+section article{
+	width: 285px;
+	float: left;
+	margin: 35px;
+}
+
+section article p{
+	text-align: justify;
+}
+
+section article button{
+	display: block;
+	margin: 15px;
+
+}
+
+#bio-container{
+	width: 150px;
+	margin-left: 40px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 2opx;
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+#bio-info{
+	width: 800px;
+	float: left;
+	margin-left: 10px;
+}
+
+#bio-info h3{
+	display: block;
+	margin-top: 20px 0;
+	text-align: center;
+}
+
+#bio-info p{
+	text-align: justify;
+	margin-right: 30px;
+}
+
+.text-right{
+	text-align: right;
+}
+
+#bio-info .text-right{
+	text-align: right;
+	margin-right: 30px;
+	border-bottom: 2px solid grey;
+	display: block;
+	padding-bottom: 10px;
+}
+
+#bio-info ul li{
+	list-style: none;
+	text-align: right;
+}
+
+#bio-info ul{
+	display: block;
+	margin: 0px;
+	padding: 19px;
+	float: right;
+	text-align: right;
+	margin-right: 14pxpx;
+	margin-top: 20px;
+}
+
+
+.fixed-element{
+	clear: both;
+}
